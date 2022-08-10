@@ -1,0 +1,85 @@
+/** @format */
+
+.App {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.recently-searched {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.recently-searched-title {
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem 2rem;
+  border-radius: 3px;
+  border: 1px solid rgba(41, 163, 163, 0.6);
+  width: 30rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  .recently-searched {
+    flex-flow: column wrap;
+  }
+  .recently-searched-title {
+    width: 100%;
+  }
+}
+
+/* App */
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  .App {
+    width: 100%;
+  }
+}
+
+.search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 0;
+  cursor: pointer;
+  width: 100%;
+  height: 3rem;
+  background-color: rgb(41, 163, 163);
+  border-radius: 3px;
+  border: 1px solid rgba(41, 163, 163, 0.6);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: all 0.2s;
+  animation: fadeInUp 0.4s;
+}
+
+.search-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(41, 163, 163);
+  border: 1px solid rgb(41, 163, 163);
+}
+
+.recently-searched-list > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.clear-button {
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem 2rem;
+  border-radius: 3px;
+  border: 1px solid rgba(41, 163, 163, 0.6);
+  width: 30rem;
+  text-align: center;
+}

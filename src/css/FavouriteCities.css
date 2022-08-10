@@ -1,0 +1,48 @@
+/** @format */
+
+.Favourites {
+  margin: 2rem 0;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+h3.Favourites-title {
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem 2rem;
+  border-radius: 3px;
+  border: 1px solid rgba(41, 163, 163, 0.6);
+  width: 30rem;
+  text-align: center;
+}
+
+.Favourites-title {
+  margin: auto;
+  color: rgb(51, 51, 51);
+}
+
+.Favourites-button-container {
+  margin: 1rem 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.Favourites-btn {
+  animation: fadeInUp 0.4s;
+}
+
+/* resize the favourites h3.favourites-tile, favourites-title favourites-button-container  */
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  .Favourites {
+    width: 100%;
+  }
+  .Favourites-title {
+    width: 100%;
+  }
+  .Favourites-button-container {
+    width: 100%;
+  }
+  h3.Favourites-title {
+    width: 100%;
+  }
+}
