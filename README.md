@@ -14,7 +14,9 @@ you can also clear the recently searched hostory
 
 You can save favourite cities and also delete them from the favorite cities
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ **Live version**
+ https://liban-weatherapp.netlify.app/
+ 
 
 ## Available Scripts
 
